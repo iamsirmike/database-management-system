@@ -1,0 +1,11 @@
+c:\users\michael\documents\visual studio 2013\Projects\login\login\bin\Debug\login.exe.config
+c:\users\michael\documents\visual studio 2013\Projects\login\login\bin\Debug\login.exe
+c:\users\michael\documents\visual studio 2013\Projects\login\login\bin\Debug\login.pdb
+c:\users\michael\documents\visual studio 2013\Projects\login\login\bin\Debug\login.xml
+c:\users\michael\documents\visual studio 2013\Projects\login\login\obj\Debug\login.Form1.resources
+c:\users\michael\documents\visual studio 2013\Projects\login\login\obj\Debug\login.Resources.resources
+c:\users\michael\documents\visual studio 2013\Projects\login\login\obj\Debug\login.vbproj.GenerateResource.Cache
+c:\users\michael\documents\visual studio 2013\Projects\login\login\obj\Debug\login.exe
+c:\users\michael\documents\visual studio 2013\Projects\login\login\obj\Debug\login.xml
+c:\users\michael\documents\visual studio 2013\Projects\login\login\obj\Debug\login.pdb
+c:\users\michael\documents\visual studio 2013\Projects\login\login\obj\Debug\login.HOME.resources

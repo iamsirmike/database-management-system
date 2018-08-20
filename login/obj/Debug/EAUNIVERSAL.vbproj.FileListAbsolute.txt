@@ -1,0 +1,39 @@
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EAUNIVERSAL.vbproj.GenerateResource.Cache
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\bin\Debug\EA CONSULT.exe.config
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.AddUser.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.AdminForm.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.APPLICANTFORM.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.APPLICANTSVIEW.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.Deploy.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.Deployedview.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.Expense.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.Expenseview.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.FINANCE.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.Form1.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.Guarantor.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.Guarantorsview.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.HOME.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.Income.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.incomeview.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.Resources.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.SearchUser.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.SplashScreen1.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.Staff.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.StaffView.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.Total.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.TotalView.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.Vacancies.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\bin\Debug\EA CONSULT.exe
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\bin\Debug\EA CONSULT.pdb
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\bin\Debug\EA CONSULT.xml
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EA CONSULT.exe
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EA CONSULT.xml
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EA CONSULT.pdb
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.Vacanciesview.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\bin\Debug\EA CONSULT.exe.manifest
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\bin\Debug\EA CONSULT.application
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EA CONSULT.exe.manifest
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EA CONSULT.application
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.Deleted.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.APPLICANT2.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\login\login\obj\Debug\EACONSULT.APPLICANTFORM2VIEW.resources

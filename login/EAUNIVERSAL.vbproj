@@ -1,0 +1,786 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1F2D2AA6-27AD-4A91-A47C-0EB12610C4A3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>EACONSULT.My.MyApplication</StartupObject>
+    <RootNamespace>EACONSULT</RootNamespace>
+    <AssemblyName>EA CONSULT</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Michael\Desktop\EACONSULT\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>5</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>true</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/EA CONSULT/</UpdateUrl>
+    <ProductName>EACONSULT</ProductName>
+    <PublisherName>CODENET</PublisherName>
+    <SuiteName>EACONSULT</SuiteName>
+    <MinimumRequiredVersion>1.0.0.0</MinimumRequiredVersion>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>7</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>EA CONSULT.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>EA CONSULT.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>606F56C599E8F2FDDE3EF4A56CA0FB5F79E639ED</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>EAUNIVERSAL_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddUser.Designer.vb">
+      <DependentUpon>AddUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.vb">
+      <DependentUpon>Admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APPLICANT2.Designer.vb">
+      <DependentUpon>APPLICANT2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="APPLICANT2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APPLICANTFORM.Designer.vb">
+      <DependentUpon>APPLICANTFORM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="APPLICANTFORM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APPLICANTFORM2VIEW.Designer.vb">
+      <DependentUpon>APPLICANTFORM2VIEW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="APPLICANTFORM2VIEW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APPLICANTSVIEW.Designer.vb">
+      <DependentUpon>APPLICANTSVIEW.vb</DependentUpon>
+    </Compile>
+    <Compile Include="APPLICANTSVIEW.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Deleted.Designer.vb">
+      <DependentUpon>Deleted.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Deleted.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deploy.Designer.vb">
+      <DependentUpon>Deploy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Deploy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Deployedview.Designer.vb">
+      <DependentUpon>Deployedview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Deployedview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EACONSULTDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EACONSULTDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EACONSULTDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EACONSULTDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EACONSULTDataSet10.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EACONSULTDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EACONSULTDataSet11.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EACONSULTDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EACONSULTDataSet12.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EACONSULTDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EACONSULTDataSet13.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EACONSULTDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EACONSULTDataSet14.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EACONSULTDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EACONSULTDataSet15.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EACONSULTDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EACONSULTDataSet16.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EACONSULTDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EACONSULTDataSet17.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EACONSULTDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EACONSULTDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EACONSULTDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EACONSULTDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EACONSULTDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EACONSULTDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EACONSULTDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EACONSULTDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EACONSULTDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EACONSULTDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EACONSULTDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EACONSULTDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EACONSULTDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EACONSULTDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EACONSULTDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EACONSULTDataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EACONSULTDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Expense.Designer.vb">
+      <DependentUpon>Expense.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Expense.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expenseview.Designer.vb">
+      <DependentUpon>Expenseview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Expenseview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FINANCE.Designer.vb">
+      <DependentUpon>FINANCE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FINANCE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guarantor.Designer.vb">
+      <DependentUpon>Guarantor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Guarantor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guarantorsview.Designer.vb">
+      <DependentUpon>Guarantorsview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Guarantorsview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HOME.Designer.vb">
+      <DependentUpon>HOME.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HOME.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Income.Designer.vb">
+      <DependentUpon>Income.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Income.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="incomeview.Designer.vb">
+      <DependentUpon>incomeview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="incomeview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="SCHOOLDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SCHOOLDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SCHOOLDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SCHOOLDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SearchUser.Designer.vb">
+      <DependentUpon>SearchUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SearchUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff.Designer.vb">
+      <DependentUpon>Staff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Staff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffView.Designer.vb">
+      <DependentUpon>StaffView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StaffView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Total.Designer.vb">
+      <DependentUpon>Total.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Total.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TotalView.Designer.vb">
+      <DependentUpon>TotalView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TotalView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vacancies.Designer.vb">
+      <DependentUpon>Vacancies.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vacancies.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vacanciesview.Designer.vb">
+      <DependentUpon>Vacanciesview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vacanciesview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddUser.resx">
+      <DependentUpon>AddUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="APPLICANT2.resx">
+      <DependentUpon>APPLICANT2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="APPLICANTFORM.resx">
+      <DependentUpon>APPLICANTFORM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="APPLICANTFORM2VIEW.resx">
+      <DependentUpon>APPLICANTFORM2VIEW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="APPLICANTSVIEW.resx">
+      <DependentUpon>APPLICANTSVIEW.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deleted.resx">
+      <DependentUpon>Deleted.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deploy.resx">
+      <DependentUpon>Deploy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Deployedview.resx">
+      <DependentUpon>Deployedview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expense.resx">
+      <DependentUpon>Expense.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expenseview.resx">
+      <DependentUpon>Expenseview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FINANCE.resx">
+      <DependentUpon>FINANCE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guarantor.resx">
+      <DependentUpon>Guarantor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guarantorsview.resx">
+      <DependentUpon>Guarantorsview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HOME.resx">
+      <DependentUpon>HOME.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Income.resx">
+      <DependentUpon>Income.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="incomeview.resx">
+      <DependentUpon>incomeview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchUser.resx">
+      <DependentUpon>SearchUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff.resx">
+      <DependentUpon>Staff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffView.resx">
+      <DependentUpon>StaffView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Total.resx">
+      <DependentUpon>Total.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TotalView.resx">
+      <DependentUpon>TotalView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vacancies.resx">
+      <DependentUpon>Vacancies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vacanciesview.resx">
+      <DependentUpon>Vacanciesview.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EACONSULTDataSet.xsc">
+      <DependentUpon>EACONSULTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EACONSULTDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EACONSULTDataSet.xss">
+      <DependentUpon>EACONSULTDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet1.xsc">
+      <DependentUpon>EACONSULTDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EACONSULTDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EACONSULTDataSet1.xss">
+      <DependentUpon>EACONSULTDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet10.xsc">
+      <DependentUpon>EACONSULTDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EACONSULTDataSet10.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EACONSULTDataSet10.xss">
+      <DependentUpon>EACONSULTDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet11.xsc">
+      <DependentUpon>EACONSULTDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EACONSULTDataSet11.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EACONSULTDataSet11.xss">
+      <DependentUpon>EACONSULTDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet12.xsc">
+      <DependentUpon>EACONSULTDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EACONSULTDataSet12.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EACONSULTDataSet12.xss">
+      <DependentUpon>EACONSULTDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet13.xsc">
+      <DependentUpon>EACONSULTDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EACONSULTDataSet13.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EACONSULTDataSet13.xss">
+      <DependentUpon>EACONSULTDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet14.xsc">
+      <DependentUpon>EACONSULTDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EACONSULTDataSet14.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EACONSULTDataSet14.xss">
+      <DependentUpon>EACONSULTDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet15.xsc">
+      <DependentUpon>EACONSULTDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EACONSULTDataSet15.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EACONSULTDataSet15.xss">
+      <DependentUpon>EACONSULTDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet16.xsc">
+      <DependentUpon>EACONSULTDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EACONSULTDataSet16.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EACONSULTDataSet16.xss">
+      <DependentUpon>EACONSULTDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet17.xsc">
+      <DependentUpon>EACONSULTDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EACONSULTDataSet17.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EACONSULTDataSet17.xss">
+      <DependentUpon>EACONSULTDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet2.xsc">
+      <DependentUpon>EACONSULTDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EACONSULTDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EACONSULTDataSet2.xss">
+      <DependentUpon>EACONSULTDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet3.xsc">
+      <DependentUpon>EACONSULTDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EACONSULTDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EACONSULTDataSet3.xss">
+      <DependentUpon>EACONSULTDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet4.xsc">
+      <DependentUpon>EACONSULTDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EACONSULTDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EACONSULTDataSet4.xss">
+      <DependentUpon>EACONSULTDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet5.xsc">
+      <DependentUpon>EACONSULTDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EACONSULTDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EACONSULTDataSet5.xss">
+      <DependentUpon>EACONSULTDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet6.xsc">
+      <DependentUpon>EACONSULTDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EACONSULTDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EACONSULTDataSet6.xss">
+      <DependentUpon>EACONSULTDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet7.xsc">
+      <DependentUpon>EACONSULTDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EACONSULTDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EACONSULTDataSet7.xss">
+      <DependentUpon>EACONSULTDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet8.xsc">
+      <DependentUpon>EACONSULTDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EACONSULTDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EACONSULTDataSet8.xss">
+      <DependentUpon>EACONSULTDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet9.xsc">
+      <DependentUpon>EACONSULTDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="EACONSULTDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EACONSULTDataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EACONSULTDataSet9.xss">
+      <DependentUpon>EACONSULTDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="EAUNIVERSAL_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="SCHOOLDataSet.xsc">
+      <DependentUpon>SCHOOLDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCHOOLDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>SCHOOLDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCHOOLDataSet.xss">
+      <DependentUpon>SCHOOLDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCHOOLDataSet1.xsc">
+      <DependentUpon>SCHOOLDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SCHOOLDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>SCHOOLDataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SCHOOLDataSet1.xss">
+      <DependentUpon>SCHOOLDataSet1.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addclass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admisiion2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admission.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\equipments.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\equipments2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exams.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fees2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fess.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Staff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2811%29.png" />
+    <Content Include="Resources\LOGO.png" />
+    <None Include="Resources\LOGO1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
